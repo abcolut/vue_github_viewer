@@ -2,10 +2,11 @@
   <div>
     <h1>Смотрелка GitHub</h1>      
       Строка поиска: <input type="text" placeholder="Строка поиска" v-model.trim="search">
-      <div v-for="g,i of git.items" class="git"> 
+      <div v-for="(g, i) in git.items" class="git" v-bind:key="i"> 
+        {{i}}
         <span class="gitName">
           <a :href="g.html_url" target="_blank"> 
-            {{g.name}}
+             {{g.name}}
           </a>
         </span> 
         Звёзд: {{g.stargazers_count}}

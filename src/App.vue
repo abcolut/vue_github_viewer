@@ -1,18 +1,15 @@
 <template>
-  <div id="app">
-    
+  <div id="app">    
     <Viewer />
   </div>
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
 import Viewer from './components/Viewer.vue'
 
 export default {
   name: 'app',
   components: {
-    //HelloWorld,
     Viewer
   }
 }

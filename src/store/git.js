@@ -31,7 +31,7 @@ export default {
 					.then(data => {
 						state.commit('setGit', data)
 					}, response => {
-						//console.error("!!! ERROR getGit()", response);
+						console.error("!!! ERROR getGit()", response);
 				});
 		},
 	}
