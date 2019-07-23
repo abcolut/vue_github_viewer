@@ -5,14 +5,14 @@
 </template>
 
 <script>
-import Viewer from './components/Viewer.vue'
+  import Viewer from './components/Viewer.vue'
 
-export default {
-  name: 'app',
-  components: {
-    Viewer
+  export default {
+    name: 'App',
+    components: {
+      Viewer
+    }
   }
-}
 </script>
 
 <style>
@@ -24,7 +24,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-h1,h2,h3{
+h1, h2, h3{
   text-align:center;
 }
 </style>

@@ -3,6 +3,8 @@ node_modules
 /musor
 /dist
 _.txt
+build.bat
+dev.bat
 
 # local env files
 .env.local

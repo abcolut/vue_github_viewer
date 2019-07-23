@@ -7,7 +7,7 @@ Vue.use(VueResource);
 export default {
 	namespaced: true,
 	state: {
-		git:{}
+		git: {}
 	},
 	getters: {
 		getGit(state){
